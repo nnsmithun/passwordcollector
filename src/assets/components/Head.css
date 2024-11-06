@@ -1,0 +1,28 @@
+nav {
+    justify-content: center;
+    width: 100%;
+    background-color: linear-gradient(90deg, #000000 0%, #ff0000 100%); /* Black to red gradient */
+    text-align: center;
+    color: #ffffff; /* White text */
+    margin: 0px;
+    padding: 10px 0;
+    position: relative;
+    display: flex;
+    height: 35px;
+    margin-left: 50px;
+}
+
+span {
+    color: #ff6347; /* Soft red span text */
+}
+
+body{
+    width: 90%;
+   
+    background-image: url("./imgss/the-night-road-conducts-to-a-city-a-illustration-free-vector.jpg");
+}
+
+h2{
+    margin-bottom:5%;
+   text-wrap: 5px; color: rgb(75, 193, 75);
+}

@@ -1,0 +1,13 @@
+.footer {
+    background-color: #040404; /* Dark background */
+    color: rgb(75, 193, 75);
+    text-align: center; /* Center the text */
+    padding: 1rem; /* Add some padding */
+    position: relative; /* Ensure it stays at the bottom */
+    bottom: 10; /* Align to the bottom */
+    width: 100%; /* Full width */
+    font-size: 0.9rem; /* Font size */
+    margin-top: 11%;
+    gap: 05px;
+    height: 10px;
+}

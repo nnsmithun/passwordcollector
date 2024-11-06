@@ -1,0 +1,31 @@
+/* Navbar.css */
+
+.navbar {
+    background-image: url(./imgss/the-night-road-conducts-to-a-city-a-illustration-free-vector.jpg);
+    padding: 10px 20px; /* Add some padding */
+    
+}
+
+.nav-list {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: flex-end; /* Align items to the right */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    gap: 15px;
+    margin-left: 1320px;
+}
+
+.nav-list li {
+    margin-left: 20px; /* Space between each nav item */
+}
+
+.nav-list li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Font size for the links */
+}
+
+.nav-list li a:hover {
+    text-decoration: underline; /* Underline on hover for effect */
+}
