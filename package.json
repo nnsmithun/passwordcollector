@@ -1,10 +1,14 @@
 {
+  "homepage": "https://nnsmithun.github.io/passwordcollector",
   "name": "password_manager",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "deploy": "gh -pages -d build",
+    "predeploy":"npm run dev",
+    
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
